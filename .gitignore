@@ -1,0 +1,25 @@
+# Binary files
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Go build artifacts
+/bin/
+/pkg/
+/build/
+*.log
+
+# Dependency management
+/go.sum
+/go.work
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.swp
