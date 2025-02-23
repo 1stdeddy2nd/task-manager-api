@@ -24,6 +24,7 @@ func main() {
 
 	r.POST("/api/auth/register", controllers.Register)
 	r.POST("/api/auth/login", controllers.Login)
+	r.POST("/api/auth/refresh-token", controllers.RefreshToken)
 
 	auth := r.Group("/api/tasks")
 	auth.Use(middleware.AuthMiddleware())
